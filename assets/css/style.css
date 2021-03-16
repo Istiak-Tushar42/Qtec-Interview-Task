@@ -95,33 +95,9 @@ body {
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
   position: relative;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-}
-
-.main .cards .card::before {
-  position: absolute;
-  content: "";
-  top: -5px;
-  left: 0;
-  border-bottom: solid 5px white;
-  border-left: solid 5px white;
-  border-right: solid 5px transparent;
-  border-top: solid 5px transparent;
-}
-
-.main .cards .card::after {
-  position: absolute;
-  content: "";
-  top: -5px;
-  right: 0;
-  border-bottom: solid 5px white;
-  border-left: solid 5px transparent;
-  border-right: solid 5px white;
-  border-top: solid 5px transparent;
 }
 
 .main .cards .card .card-body .card-title {
